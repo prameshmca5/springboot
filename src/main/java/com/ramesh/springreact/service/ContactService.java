@@ -35,7 +35,7 @@ public class ContactService {
 		return "Delete Contact !! "+id; 
 	}
 	
-	
+	/*
 	// update Contacts
 	public Contacts updateContact(Contacts contact) {
 		Contacts existingContact = contactsRepository.findById(contact.getId()).orElse(null);
@@ -45,6 +45,7 @@ public class ContactService {
 		existingContact.setNumber(contact.getNumber());
 		return contactsRepository.save(existingContact);
 	}
+	*/
 
 
 }
